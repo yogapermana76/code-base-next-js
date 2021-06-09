@@ -10,6 +10,8 @@
   "dependencies": {
     "@fontsource/pacifico": "^4.1.0",
     "@fontsource/rubik": "^4.1.1",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "next": "10.0.6",
