@@ -1,7 +1,7 @@
 import Immutable from 'seamless-immutable';
 import actionTypes from '@/redux/actions/layout'
 
-export const INIT_STATE = Immutable({
+const INIT_STATE = Immutable({
   menuStatus: false
 })
 

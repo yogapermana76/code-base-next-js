@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@/data": ["data/index"],
+      "@/lngProvider/*": ["lngProvider/*"],
       "@/components/*": ["components/*"],
       "@/redux/*": ["redux/*"],
       "@/css/*": ["assets/css/*"],

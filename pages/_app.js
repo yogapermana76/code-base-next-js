@@ -1,5 +1,6 @@
 import { Provider } from 'react-redux';
-import configureStore from '@/redux/store'
+import configureStore from '@/redux/store';
+import LngProvider from '@/components/LngProvider/index';
 
 const store = configureStore();
 
@@ -30,7 +31,9 @@ import "@/css/responsive.css";
 const MyApp = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>
-      <Component {...pageProps} />
+      <LngProvider>
+        <Component {...pageProps} />
+      </LngProvider>
     </Provider>
   ) 
 }
