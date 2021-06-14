@@ -1,5 +1,5 @@
 .header {
-  z-index: 2147483646;
+  z-index: 2147483644;
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,14 +9,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+.textlogo {
+  margin: 30px 25px 35px 26px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  color: #0a5379;
+  font-weight: 600;
+  position: relative;
+}
+
+.titik {
+  font-family: 'Courier New', Courier, monospace;
+  color: #d91023;
+  position: absolute;
+  height: 25px;
+  width: 25px;
 }
 
 .header .nav {
   position: absolute;
-  margin: 30px 36px 30px 0;
-  right: 0;
+  /* float:right; */
+  /* margin: 30px 0px 30px 0; */
+  right: 30px;
 }
 .header .nav a {
   text-decoration: none;
@@ -27,7 +45,7 @@
   margin: 0px 51px 41px 0;
 }
 .header .nav a:hover {
-  border-bottom: 2px solid #ed901a;
+  border-bottom: 2px solid #d91023;
   color: #0a5379;
 }
 
@@ -65,8 +83,8 @@
   color: white;
 }
 
-.header .logo {
-  z-index: 2147483647;
+/* .header .logo {
+  z-index: 2147483645;
   left: 0;
   position: absolute;
   width: 140px;
@@ -75,28 +93,59 @@
   margin: 106px 0px 0px 36px;
   border-bottom-right-radius: 40px;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
-}
+} */
 
 .header .logo .image {
-  margin: 55px 25px 35px 23px;
+  margin: 50px 20px;
 }
-/* .text-logo {
-  font-size: 56px;
-  font-style: italic;
-  font-weight: 600;
-  color: #0a5379;
-  margin: 35px 25px 35px 26px;
-} */
 
 .img-nav-vector-2 {
   width: 16px;
   height: 16px;
   text-align: center;
   margin-right: 11px;
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-0%, 18%); */
 }
 
 .img-nav-vector-1 {
   height: 4px;
   width: 8px;
-  /* margin-left: 3px; */
+  padding-left: 5px;
 }
+
+/* Nav Menu */
+
+/* for Smartphone Keep Improving */
+@media only screen and (max-width: 1281px) {
+  .nav {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-self: start;
+  }
+  /* .logo {
+    margin: 0;
+    width: 0;
+    height: 0;
+  } */
+  .header .logo {
+    margin: 50px 20px;
+    z-index:1;
+  }
+  .textlogo {
+    /* width: 89px;
+    height: 70px;
+    position: absolute; */
+    margin: 14px 0px;
+  }
+}
+
+/* @media only screen and (min-width: 320px) and (max-width: 480px) {
+  
+} */
