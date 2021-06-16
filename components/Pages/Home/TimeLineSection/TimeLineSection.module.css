@@ -1,0 +1,84 @@
+.timelineSection {
+  padding: 135px 0px;
+  background-color: #f7f7f7;
+}
+.timelineWrap {
+  position: relative;
+}
+.titleDesc {
+  margin-bottom: 80px;
+}
+.title {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #282828;
+}
+.description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #282828;
+}
+.subTitle {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #282828;
+  margin: 130px 0px 80px 0px;
+}
+.visitorItem {
+  text-align: center;
+  padding: 30px;
+}
+.visitorItemTitle {
+  margin: 17px 0px 9px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #004e97;
+}
+.visitorItemDesc {
+  margin-bottom: 17px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #282828;
+}
+.learnMore {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  color: #004e97;
+}
+.learnMoreArrow {
+  background: #d91023;
+  padding: 9px;
+  margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+  .subTitle {
+    font-size: 20px;
+    text-align: left;
+    margin: 54px 0px 22px 40px;
+  }
+  .timelineSection {
+    padding: 90px 0px;
+  }
+  .visitorItem {
+    text-align: left;
+    padding: 30px 56px;
+  }
+  .visitorItemTitle {
+    margin: 12px 0px;
+    font-size: 18px;
+  }
+  .visitorItemDesc {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+}
