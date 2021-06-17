@@ -1,9 +1,5 @@
 .seeMore {
   color: #004e97;
-  /* text-decoration: underline;
-  text-decoration-color: #d91023;
-  text-underline-offset: 6px;
-  text-decoration-thickness: 2px; */
 }
 .verticalLine {
   border: 1px solid #ed901a;
@@ -25,8 +21,6 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-  /* or 137% */
-
   text-align: center;
 }
 .spanSeeMore {
@@ -50,6 +44,7 @@
   padding-top: 70px;
   margin-left: 17px;
   margin-top: 15px;
+  display: none;
 }
 
 .img {
@@ -58,10 +53,8 @@
 }
 
 .imgReadMore {
-  /* filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.25)); */
   width: 380px;
   height: 320px;
-  /* position: absolute; */
 }
 
 .project {
@@ -70,7 +63,6 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  /* color: white; */
 }
 .title {
   font-family: Inter;
@@ -79,7 +71,6 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
-  /* color: white; */
 }
 
 .readMoreLink {
@@ -89,12 +80,14 @@
   font-size: 16px;
   line-height: 22px;
   margin-left: -10px;
-  /* color: white; */
 }
 
 .arrowReadMore {
   margin-top: -10px;
   margin-left: 10px;
+}
+.divImg:hover .divReadMore {
+  display: block;
 }
 
 @media (max-width: 760px) {
@@ -124,9 +117,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    /* or 137% */
     margin-left: 10px;
-
     text-align: left !important;
   }
   .spanSeeMore {
@@ -141,7 +132,6 @@
     width: 300px !important;
     height: 320px;
     max-width: 300px !important;
-    /* margin-left: 28px !important; */
   }
   .divReadMore {
     background: linear-gradient(
@@ -161,7 +151,6 @@
   }
   .seeMore {
     color: #004e97;
-    /* margin-left: 10px; */
   }
   .cardCol {
     padding-right: 0px;
@@ -179,7 +168,6 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    /* color: white; */
   }
   .title {
     font-family: Inter;
@@ -188,7 +176,6 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    /* color: white; */
   }
 
   .readMoreLink {
