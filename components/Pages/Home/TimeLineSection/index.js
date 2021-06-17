@@ -18,21 +18,21 @@ const timeLineData = [
     time: '30 NOV, 1981',
     title: 'Established',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec pharetra, scelerisque in posuere lacus, ultricies. Scelerisque augue egestas urna, aliquet eu dignissim.',
   },
   {
     image: TimeLineImg2,
     time: '20 APRIL, 1982',
     title: 'Completed first 50 projects',
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,",
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec pharetra, scelerisque in posuere lacus, ultricies. Scelerisque augue egestas urna, aliquet eu dignissim.',
   },
   {
     image: TimeLineImg3,
     time: '11 MAY, 1983',
     title: 'Took over JIMBA INC',
     description:
-      'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec pharetra, scelerisque in posuere lacus, ultricies. Scelerisque augue egestas urna, aliquet eu dignissim.',
   },
 ];
 
@@ -73,7 +73,7 @@ const TimeLineSection = () => {
             <Col lg={4} className={`${classes.visitorItem}`}>
               <img src={VisitorIC} />
               <h3 className={classes.visitorItemTitle}>For Visitors</h3>
-              <p>
+              <p className={classes.visitorItemDesc}>
                 Browse and find the perfect product that suits your business
                 needs
               </p>
@@ -92,7 +92,7 @@ const TimeLineSection = () => {
             <Col lg={4} className={`${classes.visitorItem}`}>
               <img src={ExhibitorIC} />
               <h3 className={classes.visitorItemTitle}>For Exhibitors</h3>
-              <p>
+              <p className={classes.visitorItemDesc}>
                 Learn how you can promote your products for trade to countries
                 across the globe
               </p>
@@ -111,7 +111,7 @@ const TimeLineSection = () => {
             <Col lg={4} className={`${classes.visitorItem}`}>
               <img src={InvestorIC} />
               <h3 className={classes.visitorItemTitle}>For Investors</h3>
-              <p>
+              <p className={classes.visitorItemDesc}>
                 Search and find the next big project through a secured,
                 monitored investment channel with TTI
               </p>

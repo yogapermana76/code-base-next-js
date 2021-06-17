@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import classes from './TimeLine.module.css';
 
 const TimeLine = ({ styleName, timeLine }) => {
@@ -20,6 +21,11 @@ const TimeLine = ({ styleName, timeLine }) => {
         }>
         <h4>{title}</h4>
         <p>{description}</p>
+        <Link href="#">
+          <a>
+            <div className={classes.readMore}>Read More</div>
+          </a>
+        </Link>
       </div>
     </div>
   );
