@@ -1,0 +1,25 @@
+.latestNews {
+  padding: 135px 0px;
+  background-color: #e5e5e5;
+}
+.titleSection {
+  color: #282828;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+.seeMore {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #004e97;
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .latestNews {
+    padding: 55px 0;
+  }
+}
