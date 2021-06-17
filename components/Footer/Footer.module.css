@@ -25,7 +25,6 @@
   margin-right: 12px;
 }
 .footerMenus {
-  float: right !important;
   display: flex;
   justify-content: flex-end;
 }
@@ -39,11 +38,18 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  .addressFooter > h3 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .addressFooter {
     margin-bottom: 24px;
   }
   .footerMenus {
     justify-content: flex-start;
+    margin-top: 20px;
   }
 }
