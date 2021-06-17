@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from './TimeLine.module.css';
 
-const TimeLine = ({ styleName, timeLine, children }) => {
-  const { time, title, description } = timeLine;
+const TimeLine = ({ styleName, timeLine }) => {
+  const { image, title, description } = timeLine;
   return (
     <div
       className={`${classes.timelineItem} ${
@@ -10,21 +10,15 @@ const TimeLine = ({ styleName, timeLine, children }) => {
       }`}>
       <div
         className={
-          styleName ? classes.timelineTimeInverted : classes.timelineTime
+          styleName ? classes.timelineImageInverted : classes.timelineImage
         }>
-        {time}
+        <img src={image} />
       </div>
-      {/* <div
-        className={`${
-          styleName ? classes.timelineBadgeInverted : classes.timelineBadge
-        } bg-primary`}>
-        {children}
-      </div> */}
       <div
         className={
           styleName ? classes.timelinePanelInverted : classes.timelinePanel
         }>
-        <h4 className="text-primary">{title}</h4>
+        <h4>{title}</h4>
         <p>{description}</p>
       </div>
     </div>

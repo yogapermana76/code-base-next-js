@@ -22,14 +22,14 @@
 .timelineItem:last-child::before {
   bottom: 25px;
 }
-.timelineTime {
+.timelineImage {
   position: absolute;
   top: 32px;
   left: -150px;
   right: auto;
   z-index: 2;
 }
-.timelineTimeInverted {
+.timelineImageInverted {
   position: absolute;
   top: 32px;
   right: -150px;
@@ -80,6 +80,7 @@
 }
 .timelinePanelInverted {
   padding: 20px 30px;
+  margin-bottom: 100px;
   position: relative;
   background-color: white;
 }
@@ -145,14 +146,14 @@
   .timelineItem::before {
     left: 24px;
   }
-  .timelineTime {
+  .timelineImage {
     position: relative;
     top: auto;
     left: auto;
     right: auto;
     margin-bottom: 6px;
   }
-  .timelineTimeInverted {
+  .timelineImageInverted {
     position: relative;
     top: auto;
     left: auto;

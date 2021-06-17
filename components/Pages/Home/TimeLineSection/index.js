@@ -1,55 +1,38 @@
 import React from 'react';
 import Link from 'next/link';
-import {
-  Accessible,
-  AccountCircle,
-  AddShoppingCart,
-  EventSeat,
-  Tablet,
-} from '@material-ui/icons';
+import { Accessible, EventSeat, Tablet } from '@material-ui/icons';
 import { Container, Row, Col } from 'react-bootstrap';
 import TimeLine from '@/components/TimeLine';
 import VisitorIC from '@/images/pages/home/visitor-ic.svg';
 import ExhibitorIC from '@/images/pages/home/exhibitor-ic.svg';
 import InvestorIC from '@/images/pages/home/investor-ic.svg';
 import ArrowIC from '@/images/pages/home/arrow-ic.svg';
+import TimeLineImg1 from '@/images/pages/home/timeline-img1.jpg';
+import TimeLineImg2 from '@/images/pages/home/timeline-img2.jpg';
+import TimeLineImg3 from '@/images/pages/home/timeline-img3.jpg';
 import classes from './TimeLineSection.module.css';
 
 const timeLineData = [
   {
-    image: 'https://via.placeholder.com/128x128',
+    image: TimeLineImg1,
     time: '30 NOV, 1981',
     title: 'Established',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
   },
   {
-    image: 'https://via.placeholder.com/208x208',
+    image: TimeLineImg2,
     time: '20 APRIL, 1982',
     title: 'Completed first 50 projects',
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,",
   },
   {
-    image: 'https://via.placeholder.com/150x150',
+    image: TimeLineImg3,
     time: '11 MAY, 1983',
     title: 'Took over JIMBA INC',
     description:
       'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,',
-  },
-  {
-    image: 'https://via.placeholder.com/150x150',
-    time: '18 SEPT, 1984',
-    title: 'Best builder award from usa builder board',
-    description:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-  },
-  {
-    image: 'https://via.placeholder.com/150x150',
-    time: '30 NOV, 1985',
-    title: 'completed first 100 projects',
-    description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
   },
 ];
 
@@ -71,7 +54,7 @@ const TimeLineSection = () => {
               </p>
             </div>
             <div className={classes.timelineWrap}>
-              <TimeLine timeLine={timeLineData[1]}>
+              <TimeLine timeLine={timeLineData[0]}>
                 <EventSeat />
               </TimeLine>
               <TimeLine styleName="inverted" timeLine={timeLineData[1]}>
@@ -79,12 +62,6 @@ const TimeLineSection = () => {
               </TimeLine>
               <TimeLine timeLine={timeLineData[2]}>
                 <Accessible />
-              </TimeLine>
-              <TimeLine styleName="inverted" timeLine={timeLineData[3]}>
-                <AccountCircle />
-              </TimeLine>
-              <TimeLine timeLine={timeLineData[4]}>
-                <AddShoppingCart />
               </TimeLine>
             </div>
           </Col>
