@@ -70,61 +70,67 @@ const TimeLineSection = () => {
         <div>
           <h3 className={classes.subTitle}>What we can do for you</h3>
           <Row>
-            <Col lg={4} className={`${classes.visitorItem}`}>
-              <img src={VisitorIC} />
-              <h3 className={classes.visitorItemTitle}>For Visitors</h3>
-              <p className={classes.visitorItemDesc}>
-                Browse and find the perfect product that suits your business
-                needs
-              </p>
-              <div>
-                <Link href="#">
-                  <a>
-                    <span
-                      className={`${classes.learnMoreArrow} rounded-circle`}>
-                      <img src={ArrowIC} />
-                    </span>
-                    <span className={classes.learnMore}>Learn more</span>
-                  </a>
-                </Link>
+            <Col lg={4} md={4}>
+              <div className={`${classes.visitorItem}`}>
+                <img src={VisitorIC} />
+                <h3 className={classes.visitorItemTitle}>For Visitors</h3>
+                <p className={classes.visitorItemDesc}>
+                  Browse and find the perfect product that suits your business
+                  needs
+                </p>
+                <div>
+                  <Link href="#">
+                    <a>
+                      <span
+                        className={`${classes.learnMoreArrow} rounded-circle`}>
+                        <img src={ArrowIC} />
+                      </span>
+                      <span className={classes.learnMore}>Learn more</span>
+                    </a>
+                  </Link>
+                </div>
               </div>
             </Col>
-            <Col lg={4} className={`${classes.visitorItem}`}>
-              <img src={ExhibitorIC} />
-              <h3 className={classes.visitorItemTitle}>For Exhibitors</h3>
-              <p className={classes.visitorItemDesc}>
-                Learn how you can promote your products for trade to countries
-                across the globe
-              </p>
-              <div>
-                <Link href="#">
-                  <a>
-                    <span
-                      className={`${classes.learnMoreArrow} rounded-circle`}>
-                      <img src={ArrowIC} />
-                    </span>
-                    <span className={classes.learnMore}>Learn more</span>
-                  </a>
-                </Link>
+            <Col lg={4} md={4}>
+              <div className={`${classes.visitorItem}`}>
+                <img src={ExhibitorIC} />
+                <h3 className={classes.visitorItemTitle}>For Exhibitors</h3>
+                <p className={classes.visitorItemDesc}>
+                  Learn how you can promote your products for trade to countries
+                  across the globe
+                </p>
+                <div>
+                  <Link href="#">
+                    <a>
+                      <span
+                        className={`${classes.learnMoreArrow} rounded-circle`}>
+                        <img src={ArrowIC} />
+                      </span>
+                      <span className={classes.learnMore}>Learn more</span>
+                    </a>
+                  </Link>
+                </div>
               </div>
             </Col>
-            <Col lg={4} className={`${classes.visitorItem}`}>
-              <img src={InvestorIC} />
-              <h3 className={classes.visitorItemTitle}>For Investors</h3>
-              <p className={classes.visitorItemDesc}>
-                Search and find the next big project through a secured,
-                monitored investment channel with TTI
-              </p>
-              <div>
-                <Link href="#">
-                  <a>
-                    <span
-                      className={`${classes.learnMoreArrow} rounded-circle`}>
-                      <img src={ArrowIC} />
-                    </span>
-                    <span className={classes.learnMore}>Learn more</span>
-                  </a>
-                </Link>
+            <Col lg={4} md={4}>
+              <div className={`${classes.visitorItem}`}>
+                <img src={InvestorIC} />
+                <h3 className={classes.visitorItemTitle}>For Investors</h3>
+                <p className={classes.visitorItemDesc}>
+                  Search and find the next big project through a secured,
+                  monitored investment channel with TTI
+                </p>
+                <div>
+                  <Link href="#">
+                    <a>
+                      <span
+                        className={`${classes.learnMoreArrow} rounded-circle`}>
+                        <img src={ArrowIC} />
+                      </span>
+                      <span className={classes.learnMore}>Learn more</span>
+                    </a>
+                  </Link>
+                </div>
               </div>
             </Col>
           </Row>

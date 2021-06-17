@@ -61,16 +61,45 @@
 }
 .learnMoreArrow {
   background: #d91023;
-  padding: 9px;
+  padding: 4px 9px;
   margin-right: 12px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  .timelineSection {
+    padding: 82px 0px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 14px;
+  }
+  .subTitle {
+    font-size: 20px;
+    margin: 98px 0px 60px 0px;
+  }
+  .visitorItem {
+    padding: 25px 10px;
+  }
+  .visitorItem > img {
+    width: 80px;
+  }
+  .visitorItemTitle {
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+  .visitorItemDesc {
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .titleDesc {
     margin-bottom: 51px;
   }
   .title {
-    font-family: Merriweather;
     font-size: 24px;
   }
   .description {
@@ -87,6 +116,9 @@
   .visitorItem {
     text-align: left;
     padding: 25px 50px;
+  }
+  .visitorItem > img {
+    width: 72px;
   }
   .visitorItemTitle {
     margin: 12px 0px;
