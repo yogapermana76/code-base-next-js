@@ -2,36 +2,35 @@ import React from 'react';
 import Link from 'next/link';
 import { Container, Row, Col } from 'react-bootstrap';
 import NewsCard from '@/components/NewsCard/index';
-import Image from '@/images/blog-1-1.jpg';
+import LatestNewsImg1 from '@/images/pages/home/latestNews/latestNews1.jpg';
+import LatestNewsImg2 from '@/images/pages/home/latestNews/latestNews2.jpg';
+import LatestNewsImg3 from '@/images/pages/home/latestNews/latestNews3.jpg';
 import classes from './LatestNews.module.css';
 
 const LATES_NEWS_DATA = [
   {
-    image: Image,
+    image: LatestNewsImg1,
     category: 'INA-LAC News',
     date: '1 May 2021',
-    comments: '2 Comments',
     title: 'Pre and post launch mobile app marketing pitfalls to avoid',
     text: 'There are many variations of passages of available but majority have alteration in some by inject humour or random words.',
-    link: '/blog-details',
+    link: '/news-details',
   },
   {
-    image: Image,
+    image: LatestNewsImg2,
     category: 'INA-LAC News',
     date: '1 May 2021',
-    comments: '2 Comments',
     title: 'Social currency high perfor- mance keywords or',
     text: 'There are many variations of passages of available but majority have alteration in some by inject humour or random words.',
-    link: '/blog-details',
+    link: '/news-details',
   },
   {
-    image: Image,
+    image: LatestNewsImg3,
     category: 'INA-LAC News',
     date: '1 May 2021',
-    comments: '2 Comments',
     title: 'Prioritize these line items quarterly sales are at ',
     text: 'There are many variations of passages of available but majority have alteration in some by inject humour or random words.',
-    link: '/blog-details',
+    link: '/news-details',
   },
 ];
 
