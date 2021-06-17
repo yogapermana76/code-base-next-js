@@ -1,8 +1,9 @@
 .latestNews {
   padding: 135px 0px;
-  background-color: #e5e5e5;
+  background-color: #f7f7f7;
 }
 .titleSection {
+  font-family: Merriweather;
   color: #282828;
   font-weight: bold;
   font-size: 32px;
@@ -10,16 +11,27 @@
   margin-bottom: 40px;
 }
 .seeMore {
-  font-weight: 700;
+  font-family: Merriweather;
+  font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   color: #004e97;
   border-bottom: 2px solid red;
-  display: inline-block;
+  display: inline;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
   .latestNews {
     padding: 55px 0;
+  }
+  .titleSection {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .seeMore {
+    font-family: Merriweather;
+    font-size: 14px;
+    color: #0a5379;
   }
 }
