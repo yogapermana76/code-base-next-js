@@ -15,13 +15,19 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #004e97;
+  color: #0a5379;
   border-bottom: 2px solid red;
   display: inline;
   padding-bottom: 5px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  .seeMore {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .latestNews {
     padding: 55px 0;
   }
@@ -30,8 +36,6 @@
     margin-bottom: 20px;
   }
   .seeMore {
-    font-family: Merriweather;
     font-size: 14px;
-    color: #0a5379;
   }
 }

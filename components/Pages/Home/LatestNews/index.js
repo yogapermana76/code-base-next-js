@@ -57,7 +57,7 @@ const LatesNews = () => {
             ),
           )}
         </Row>
-        <div className="text-sm-left text-lg-center">
+        <div className="text-sm-left text-md-center text-lg-center">
           <Link href="#">
             <a>
               <h3 className={`${classes.seeMore}`}>See More News</h3>
