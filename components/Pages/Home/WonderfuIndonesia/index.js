@@ -3,9 +3,6 @@ import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
 import { Col, Row } from 'react-bootstrap';
 import classes from './Wonderful.module.css';
-import Warehouse from '@/images/clean/warehouse.png';
-import Building from '@/images/clean/building.png';
-import Nature from '@/images/clean/nature.png';
 import ReadMore from '@/images/clean/readMore.png';
 import Feat1 from '@/images/wonderfulIndonesia/feat1.png';
 import Feat2 from '@/images/wonderfulIndonesia/feat2.png';
@@ -46,29 +43,22 @@ const Wonderfull = () => {
                     <p className={classes['titleFeat']}>
                       Bali, Island of the Gods
                     </p>
-                    {/* <p className={classes['title']}>Bali, Island of the Gods</p> */}
                     <p className={classes['descFeat']}>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Facilisis nisl ultrices netus sit et aenean pulvinar.{' '}
                     </p>
-                    {/* <p className={classes['title']}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Facilisis nisl ultrices netus sit et aenean pulvinar.
-                    </p> */}
-                    {/* <p className={classes['project']}>Project Name </p>
-                    <p className={classes['title']}>East Java </p> */}
                     <Row>
-                      <Col lg={2}>
+                      <div className="col-3">
                         <img
                           src={ReadMore}
                           className={classes['arrowReadMore']}
                         />
-                      </Col>
-                      <Col lg={10}>
+                      </div>
+                      <div>
                         <p className={classes['readMoreLink']}>
                           Explore Destination
                         </p>
-                      </Col>
+                      </div>
                     </Row>
                     <p></p>
                   </div>
@@ -236,17 +226,10 @@ const Wonderfull = () => {
                     <p className={classes['titleFeat']}>
                       Bali, Island of the Gods
                     </p>
-                    {/* <p className={classes['title']}>Bali, Island of the Gods</p> */}
                     <p className={classes['descFeat']}>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Facilisis nisl ultrices netus sit et aenean pulvinar.{' '}
                     </p>
-                    {/* <p className={classes['title']}>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Facilisis nisl ultrices netus sit et aenean pulvinar.
-                    </p> */}
-                    {/* <p className={classes['project']}>Project Name </p>
-                    <p className={classes['title']}>East Java </p> */}
                     <Row>
                       <Col lg={2}>
                         <img
