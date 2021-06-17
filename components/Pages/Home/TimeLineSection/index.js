@@ -3,13 +3,13 @@ import Link from 'next/link';
 import { Accessible, EventSeat, Tablet } from '@material-ui/icons';
 import { Container, Row, Col } from 'react-bootstrap';
 import TimeLine from '@/components/TimeLine';
-import VisitorIC from '@/images/pages/home/visitor-ic.svg';
-import ExhibitorIC from '@/images/pages/home/exhibitor-ic.svg';
-import InvestorIC from '@/images/pages/home/investor-ic.svg';
-import ArrowIC from '@/images/pages/home/arrow-ic.svg';
-import TimeLineImg1 from '@/images/pages/home/timeline-img1.jpg';
-import TimeLineImg2 from '@/images/pages/home/timeline-img2.jpg';
-import TimeLineImg3 from '@/images/pages/home/timeline-img3.jpg';
+import VisitorIC from '@/images/pages/home/timelineSection/visitor-ic.svg';
+import ExhibitorIC from '@/images/pages/home/timelineSection/exhibitor-ic.svg';
+import InvestorIC from '@/images/pages/home/timelineSection/investor-ic.svg';
+import ArrowIC from '@/images/pages/home/timelineSection/arrow-ic.svg';
+import TimeLineImg1 from '@/images/pages/home/timelineSection/timeline-img1.jpg';
+import TimeLineImg2 from '@/images/pages/home/timelineSection/timeline-img2.jpg';
+import TimeLineImg3 from '@/images/pages/home/timelineSection/timeline-img3.jpg';
 import classes from './TimeLineSection.module.css';
 
 const timeLineData = [

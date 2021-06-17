@@ -3,16 +3,16 @@ import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
 import { Col, Row } from 'react-bootstrap';
 import classes from './Wonderful.module.css';
-import ReadMore from '@/images/clean/readMore.png';
-import Feat1 from '@/images/wonderfulIndonesia/feat1.png';
-import Feat2 from '@/images/wonderfulIndonesia/feat2.png';
-import Feat3 from '@/images/wonderfulIndonesia/feat3.png';
-import Feat4 from '@/images/wonderfulIndonesia/feat4.png';
-import Feat5 from '@/images/wonderfulIndonesia/feat5.png';
-import Feat6 from '@/images/wonderfulIndonesia/feat6.png';
-import Exp1 from '@/images/wonderfulIndonesia/exp1.png';
-import Exp2 from '@/images/wonderfulIndonesia/exp2.png';
-import Exp3 from '@/images/wonderfulIndonesia/exp3.png';
+import ReadMore from '@/images/pages/home/clean/readMore.png';
+import Feat1 from '@/images/pages/home/wonderfulIndonesia/feat1.png';
+import Feat2 from '@/images/pages/home/wonderfulIndonesia/feat2.png';
+import Feat3 from '@/images/pages/home/wonderfulIndonesia/feat3.png';
+import Feat4 from '@/images/pages/home/wonderfulIndonesia/feat4.png';
+import Feat5 from '@/images/pages/home/wonderfulIndonesia/feat5.png';
+import Feat6 from '@/images/pages/home/wonderfulIndonesia/feat6.png';
+import Exp1 from '@/images/pages/home/wonderfulIndonesia/exp1.png';
+import Exp2 from '@/images/pages/home/wonderfulIndonesia/exp2.png';
+import Exp3 from '@/images/pages/home/wonderfulIndonesia/exp3.png';
 
 const Wonderfull = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });

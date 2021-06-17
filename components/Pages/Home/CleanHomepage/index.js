@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { useMediaQuery } from 'react-responsive';
 import { Col, Row } from 'react-bootstrap';
 import classes from './Clean.module.css';
-import Warehouse from '@/images/clean/warehouse.png';
-import Building from '@/images/clean/building.png';
-import Nature from '@/images/clean/nature.png';
-import ReadMore from '@/images/clean/readMore.png';
+import Warehouse from '@/images/pages/home/clean/warehouse.png';
+import Building from '@/images/pages/home/clean/building.png';
+import Nature from '@/images/pages/home/clean/nature.png';
+import ReadMore from '@/images/pages/home/clean/readMore.png';
 
 const Clean = () => {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
