@@ -1,11 +1,30 @@
 .seeMore {
   color: #004e97;
 }
+.clean {
+  background: #f5f6fa;
+}
+.section {
+  padding: 120px 0;
+}
+.containerModify {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .verticalLine {
-  border: 1px solid #ed901a;
-  transform: rotate(90deg);
-  width: 180px;
-  margin: 0 auto;
+  background-color: #0a5379;
+  height: 120px;
+  margin: 0px auto;
+  width: 2px;
+  margin-top: -120px;
+}
+.textCenter {
+  text-align: center !important;
 }
 .titleSection {
   font-family: Merriweather;
@@ -31,7 +50,7 @@
   margin-top: 40px;
 }
 .divImg {
-  padding-left: 28px;
+  padding-left: 0px;
 }
 .divReadMore {
   background: rgba(10, 83, 121, 0.6);
@@ -90,15 +109,55 @@
   display: block;
 }
 
-@media (max-width: 760px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  /* .card {
+    margin-left: -35px;
+  } */
+
+  /* .spanSeeMore {
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px solid #d91023;
+    padding-bottom: 2px;
+    margin-top: 40px;
+    margin-left: 10px;
+  } */
+  .divImg {
+    width: 300px !important;
+    height: 320px;
+    max-width: 300px !important;
+  }
+  .divReadMore {
+    background: linear-gradient(
+      360deg,
+      #0a5379 36.87%,
+      rgba(255, 255, 255, 0) 84.22%
+    );
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    width: 275px;
+    height: 287px;
+    padding-left: 24px;
+    padding-top: 70px;
+    margin-left: 12px;
+    margin-top: 15px;
+  }
+  .cardCol {
+    padding-right: 0px;
+    /* padding-left: 0px; */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .verticalLine {
-    border: 1px solid #ed901a;
-    transform: rotate(90deg);
-    width: 180px;
-    margin-left: -70px;
+    background-color: #0a5379;
+    height: 120px;
+    margin-left: 24px;
+    width: 2px;
   }
   .card {
-    margin-left: -35px;
+    /* margin-left: 0px; */
   }
   .titleSection {
     font-family: Merriweather;
@@ -107,9 +166,9 @@
     font-size: 24px;
     line-height: 30px;
     color: #282828;
-    margin-top: -85px;
-    margin-left: 12px;
-    margin-bottom: 10px;
+    margin-top: -55px;
+    margin-left: 24px;
+    margin-bottom: 30px;
   }
   .descSection {
     font-family: Inter;
@@ -117,7 +176,7 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    margin-left: 10px;
+    margin-left: 24px;
     text-align: left !important;
   }
   .spanSeeMore {
@@ -142,7 +201,7 @@
     color: white;
     border-radius: 8px;
     position: absolute;
-    width: 248px;
+    width: 275px;
     height: 287px;
     padding-left: 24px;
     padding-top: 70px;
@@ -154,7 +213,7 @@
   }
   .cardCol {
     padding-right: 0px;
-    padding-left: 0px;
+    /* padding-left: 0px; */
   }
 
   .imgReadMore {
