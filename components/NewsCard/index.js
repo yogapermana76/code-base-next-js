@@ -1,13 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
-import { useMediaQuery } from 'react-responsive';
+import MediaQuery, { useMediaQuery } from 'react-responsive';
 import classes from './NewsCard.module.css';
 
 const NewsCard = ({ image, title, category, date, text, link }) => {
   const isMobile = useMediaQuery({ query: `(max-width: 768px)` });
   return (
     <div>
-      {isMobile ? (
+      <MediaQuery maxWidth={768}>
         <div className={`${classes.newCardMobile} media`}>
           <div className={classes.imageMobile}>
             <img className="img-fluid" src={image} alt="newsImg" />
@@ -26,7 +26,8 @@ const NewsCard = ({ image, title, category, date, text, link }) => {
             </div>
           </div>
         </div>
-      ) : (
+      </MediaQuery>
+      <MediaQuery minWidth={769}>
         <div className={classes.newsCard}>
           <div className={classes.imageBlock}>
             <div className={classes.innerBlock}>
@@ -46,7 +47,7 @@ const NewsCard = ({ image, title, category, date, text, link }) => {
             <p>{text}</p>
           </div>
         </div>
-      )}
+      </MediaQuery>
     </div>
   );
 };
