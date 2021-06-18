@@ -1,3 +1,26 @@
+.wonderful {
+  padding-bottom: 140px;
+}
+.imgWonderful {
+  float: right;
+  margin-top: -50px;
+  margin-right: 40px;
+}
+.textCenter {
+  text-align: center !important;
+}
+.containerModify {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.section {
+  padding: 120px 0;
+}
 .seeMore {
   color: #004e97;
 }
@@ -52,10 +75,11 @@
   margin-bottom: 56px;
 }
 .verticalLine {
-  border: 1px solid #ed901a;
-  transform: rotate(90deg);
-  width: 180px;
-  margin: 0 auto;
+  background-color: #0a5379;
+  height: 120px;
+  margin: 0px auto;
+  width: 2px;
+  margin-bottom: -55px;
 }
 .titleSection {
   font-family: Merriweather;
@@ -81,7 +105,7 @@
   margin-top: 40px;
 }
 .divImg {
-  padding-left: 28px;
+  padding-left: 0px;
 }
 .divReadMore {
   background: rgba(10, 83, 121, 0.6);
@@ -148,8 +172,40 @@
 .imgExperience {
   border-radius: 8px 8px 0px 0px;
 }
+@media (min-width: 426px) and (max-width: 768px) {
+  .divImg {
+    width: 300px !important;
+    height: 320px;
+    max-width: 300px !important;
+  }
+  .divReadMore {
+    background: linear-gradient(
+      360deg,
+      #0a5379 36.87%,
+      rgba(255, 255, 255, 0) 84.22%
+    );
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    width: 275px;
+    height: 287px;
+    padding-left: 24px;
+    padding-top: 70px;
+    margin-left: 12px;
+    margin-top: 15px;
+  }
+  .seeMore {
+    color: #004e97;
+  }
+  .cardCol {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
-@media (max-width: 760px) {
+  .imgReadMore {
+    width: 380px;
+    height: 320px;
+  }
   .modifyCard {
     position: relative;
     display: flex;
@@ -160,14 +216,35 @@
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 8px;
-    min-width: 300px;
+    min-width: 280px;
     margin-left: 35px !important;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .wonderful {
+    padding-bottom: 70;
+  }
+  .modifyCard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 8px;
+    min-width: 280px;
+    margin-left: 35px !important;
+    margin-bottom: 15px;
   }
   .verticalLine {
-    border: 1px solid #ed901a;
-    transform: rotate(90deg);
-    width: 180px;
-    margin-left: -70px;
+    background-color: #0a5379;
+    height: 120px;
+    margin-left: 24px;
+    width: 2px;
   }
   .card {
     margin-left: -35px;
@@ -179,7 +256,7 @@
     font-size: 24px;
     line-height: 30px;
     color: #282828;
-    margin-top: -56px;
+    margin-top: 40px;
     margin-left: 12px;
     margin-bottom: 10px;
   }
@@ -200,10 +277,15 @@
     margin-top: 40px;
     margin-left: 10px;
   }
+  .divTitle {
+    margin-top: -140px;
+    margin-left: 12px;
+  }
   .divImg {
     width: 300px !important;
     height: 320px;
     max-width: 300px !important;
+    padding-left: 24px;
   }
   .divReadMore {
     background: linear-gradient(
