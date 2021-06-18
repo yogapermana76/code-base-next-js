@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Link from 'next/link';
-import { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 import { Col, Row } from 'react-bootstrap';
 import classes from './Clean.module.css';
 import Warehouse from '@/images/pages/home/clean/warehouse.png';
@@ -9,15 +9,13 @@ import Nature from '@/images/pages/home/clean/nature.png';
 import ReadMore from '@/images/pages/home/clean/readMore.png';
 
 const Clean = () => {
-  const isMobile = useMediaQuery({ minWidth: 320, maxWidth: 425 });
-  const isTablet = useMediaQuery({ minWidth: 426, maxWidth: 768 });
   return (
     <div>
       <section className={`${classes.clean} ${classes.section}`}>
         <div className={classes.verticalLine} />
 
         <div className={classes.containerModify}>
-          {isMobile ? (
+          <MediaQuery minWidth={320} maxWidth={425}>
             <div>
               <div>
                 <h3 className={classes.titleSection}>
@@ -78,7 +76,8 @@ const Clean = () => {
                 </span>
               </Link>
             </div>
-          ) : isTablet ? (
+          </MediaQuery>
+          <MediaQuery minWidth={426} maxWidth={768}>
             <div>
               <div className={classes.textCenter}>
                 <h3 className={classes.titleSection}>
@@ -140,7 +139,8 @@ const Clean = () => {
                 </Link>
               </div>
             </div>
-          ) : (
+          </MediaQuery>
+          <MediaQuery minWidth={769}>
             <div>
               <div className={classes.textCenter}>
                 <h3 className={classes.titleSection}>
@@ -204,7 +204,7 @@ const Clean = () => {
                 </Link>
               </div>
             </div>
-          )}
+          </MediaQuery>
         </div>
       </section>
     </div>

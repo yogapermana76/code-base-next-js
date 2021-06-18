@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Link from 'next/link';
-import { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 import { Col, Row } from 'react-bootstrap';
 import classes from './Wonderful.module.css';
 import ReadMore from '@/images/pages/home/clean/readMore.png';
@@ -16,15 +16,10 @@ import Exp3 from '@/images/pages/home/wonderfulIndonesia/exp3.png';
 import Wonderful from '@/images/pages/home/wonderfulIndonesia/wonderful.png';
 
 const Wonderfull = () => {
-  const isMobile = useMediaQuery({ minWidth: 320, maxWidth: 425 });
-  const isTablet = useMediaQuery({ minWidth: 426, maxWidth: 768 });
   return (
     <div>
       <div className={classes.verticalLine} />
-      {isMobile ? null : (
-        <img src={Wonderful} className={classes.imgWonderful} />
-      )}
-      {isMobile ? (
+      <MediaQuery maxWidth={425} minWidth={320}>
         <section className={`${classes.wonderful} ${classes.section}`}>
           <div className="container">
             <div className={classes.divTitle}>
@@ -194,7 +189,9 @@ const Wonderfull = () => {
             </div>
           </div>
         </section>
-      ) : isTablet ? (
+      </MediaQuery>
+      <MediaQuery maxWidth={768} minWidth={426}>
+        <img src={Wonderful} className={classes.imgWonderful} />
         <section className={`${classes.wonderful} ${classes.section}`}>
           <div className={classes.containerModify}>
             <div className={classes.textCenter}>
@@ -364,7 +361,9 @@ const Wonderfull = () => {
             </div>
           </div>
         </section>
-      ) : (
+      </MediaQuery>
+      <MediaQuery minWidth={769}>
+        <img src={Wonderful} className={classes.imgWonderful} />
         <section className={`${classes.wonderful} ${classes.section}`}>
           <div className={classes.containerModify}>
             <div className={classes.textCenter}>
@@ -534,7 +533,7 @@ const Wonderfull = () => {
             </div>
           </div>
         </section>
-      )}
+      </MediaQuery>
     </div>
   );
 };
