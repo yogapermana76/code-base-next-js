@@ -4,6 +4,7 @@ import classes from './Product.module.css';
 import useWindowSize from '../../../hooks/useWindowSize';
 import { useEffect, useState } from 'react';
 
+import halfCircleLogo from './assets/img/halfcircle-logo.svg';
 import verticalTimeline from './assets/img/vertical-timeline.svg';
 
 const CardProduct = () => {
@@ -49,6 +50,9 @@ const CardProduct = () => {
 
   return (
     <section className={classes.productSection}>
+      <i className={classes.timeline}>
+        <img src={halfCircleLogo} alt="halfcircle-logo" />
+      </i>
       <i className={classes.timeline}>
         <img src={verticalTimeline} alt="vertical-timeline" />
       </i>

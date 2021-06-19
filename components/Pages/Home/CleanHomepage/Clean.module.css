@@ -1,0 +1,254 @@
+.seeMore {
+  color: #004e97;
+}
+.clean {
+  background: #f5f6fa;
+}
+.section {
+  padding: 120px 0;
+}
+.containerModify {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.verticalLine {
+  background-color: #0a5379;
+  height: 120px;
+  margin: 0px auto;
+  width: 2px;
+  margin-top: -120px;
+}
+.textCenter {
+  text-align: center !important;
+}
+.titleSection {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #282828;
+  line-height: 40px;
+}
+.descSection {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.spanSeeMore {
+  cursor: pointer;
+  display: inline-block;
+  border-bottom: 2px solid #d91023;
+  padding-bottom: 2px;
+  margin-top: 40px;
+}
+.divImg {
+  padding-left: 0px;
+}
+.divReadMore {
+  background: rgba(10, 83, 121, 0.6);
+  color: white;
+  border-radius: 8px;
+  position: absolute;
+  width: 346px;
+  height: 287px;
+  padding-left: 40px;
+  padding-top: 70px;
+  margin-left: 17px;
+  margin-top: 15px;
+  display: none;
+}
+
+.img {
+  width: 380px;
+  height: 320px;
+}
+
+.imgReadMore {
+  width: 380px;
+  height: 320px;
+}
+
+.project {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+.title {
+  font-family: Inter;
+  font-style: normal;
+  margin-top: -20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.readMoreLink {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: -10px;
+}
+
+.arrowReadMore {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.divImg:hover .divReadMore {
+  display: block;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  /* .card {
+    margin-left: -35px;
+  } */
+
+  /* .spanSeeMore {
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px solid #d91023;
+    padding-bottom: 2px;
+    margin-top: 40px;
+    margin-left: 10px;
+  } */
+  .divImg {
+    width: 300px !important;
+    height: 320px;
+    max-width: 300px !important;
+  }
+  .divReadMore {
+    background: linear-gradient(
+      360deg,
+      #0a5379 36.87%,
+      rgba(255, 255, 255, 0) 84.22%
+    );
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    width: 275px;
+    height: 287px;
+    padding-left: 24px;
+    padding-top: 70px;
+    margin-left: 12px;
+    margin-top: 15px;
+  }
+  .cardCol {
+    padding-right: 0px;
+    /* padding-left: 0px; */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .verticalLine {
+    background-color: #0a5379;
+    height: 120px;
+    margin-left: 24px;
+    width: 2px;
+  }
+  .card {
+    /* margin-left: 0px; */
+  }
+  .titleSection {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #282828;
+    margin-top: -55px;
+    margin-left: 24px;
+    margin-bottom: 30px;
+  }
+  .descSection {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 24px;
+    text-align: left !important;
+  }
+  .spanSeeMore {
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px solid #d91023;
+    padding-bottom: 2px;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  .divImg {
+    width: 300px !important;
+    height: 320px;
+    max-width: 300px !important;
+  }
+  .divReadMore {
+    background: linear-gradient(
+      360deg,
+      #0a5379 36.87%,
+      rgba(255, 255, 255, 0) 84.22%
+    );
+    color: white;
+    border-radius: 8px;
+    position: absolute;
+    width: 275px;
+    height: 287px;
+    padding-left: 24px;
+    padding-top: 70px;
+    margin-left: 12px;
+    margin-top: 15px;
+  }
+  .seeMore {
+    color: #004e97;
+  }
+  .cardCol {
+    padding-right: 0px;
+    /* padding-left: 0px; */
+  }
+
+  .imgReadMore {
+    width: 380px;
+    height: 320px;
+  }
+
+  .project {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .title {
+    font-family: Inter;
+    font-style: normal;
+    margin-top: -20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .readMoreLink {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .arrowReadMore {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
