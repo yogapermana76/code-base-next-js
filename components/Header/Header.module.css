@@ -1,0 +1,123 @@
+.header {
+  z-index: 2147483644;
+  position: fixed;
+  /* top: 0; */
+  width: 100%;
+  height: 100px;
+
+  background-color: rgb(10, 83, 121, 0.2);
+
+  /* background-color: #0a5379; */
+  /* mix-blend-mode: multiply; */
+  /* opacity: 0.3; */
+
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0;
+  /* box-shadow: 0 2px 8px ; */
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.25);
+}
+
+.header .nav {
+  position: relative;
+  right: 0px;
+  /* top: 16px;  */
+  /* float:right; */
+  /* margin: 30px 0px 30px 0; */
+  max-width: 1345px;
+
+  padding-right: 30px;
+}
+.header .nav a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #282828;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin: 0px 51px 41px 0;
+}
+
+.header .nav a:hover,
+/* .header .nav a:link, */
+.header .nav a:visited,
+.header .nav a:active {
+  border-bottom: 2px solid #ed901a;
+  border-spacing: 15px;
+  color: white;
+}
+
+/* .header .nav .active {
+  border: 2px solid #d91023;
+  color: #0a5379;
+} */
+
+.header .nav-text-vector {
+  width: 120px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  font-family: 'Inter';
+  font-weight: 400;
+  margin: 0px 34px 41px 0;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  display: inline;
+}
+
+.header li .button {
+  width: 120px;
+  /* height: 40px; */
+  border: none;
+  background: none;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ed901a;
+}
+
+.header .logo {
+  cursor: pointer;
+  margin: 50px 40px;
+}
+
+.img-nav-vector-2 {
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  margin-right: 11px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-0%, -5%);
+}
+
+/* Nav Menu */
+
+/* for Smartphone Keep Improving */
+@media only screen and (max-width: 1449px) {
+  .nav {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-self: start;
+  }
+}
+
+/* @media only screen and (min-width: 320px) and (max-width: 480px) {
+  
+} */

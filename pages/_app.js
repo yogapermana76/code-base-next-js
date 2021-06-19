@@ -28,6 +28,14 @@ import "@/css/hover.min.css";
 import "@/css/style.css";
 import "@/css/responsive.css";
 
+
+// import 'swiper/swiper.min.css';
+// import 'swiper/components/navigation/navigation.min.css';
+// import 'swiper/components/pagination/pagination.min.css';
+
+
+import '../components/Sections/Product/ProductItem/SwiperStyles.css';
+
 const MyApp = ({ Component, pageProps }) => {
   return (
     <Provider store={store}>

@@ -1,0 +1,233 @@
+.productSection {
+  height: 1051px;
+  /* width: 1440px; */
+  /* left: 0px;
+  top: 2901px; */
+  /* border-radius: 0px; */
+
+  /* transform: translatex(55%); */
+  /* width: 677px; */
+  /* height:100px; */
+  /* padding-top: 150px; */
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  /* position:absolute */
+}
+
+.productSection .timeline img {
+  margin-bottom: 16px;
+  /* position: relative; */
+  /* width: 120px; */
+  /* height: 0px;
+  left: 720px;
+  top: 2901px; */
+
+  /* Blue */
+  /*   
+  border: 1px solid #0A5379;
+  transform: rotate(90deg); */
+}
+
+.productSection h1 {
+  /* justify-content: center; */
+  /* Product showcase */
+
+  /* position: absolute; */
+  /* width: 288px; */
+  /* height: 40px; */
+  /* left: 576px;
+  top: 2873px; */
+
+  color: #282828;
+
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+
+  /* Black */
+  margin-top: 16;
+  margin-bottom: 7;
+}
+
+.productSection p {
+  max-width: 677px;
+  margin: 0 auto;
+
+  /* height: 66px; */
+  color: #4F4F4F;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+
+  /* text-align: center; */
+
+  /* Black */
+}
+
+.productSection h3 {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+
+  /* Black */
+
+  color: #282828;
+  margin: 40px 0px 30px 0px;
+}
+
+.productItemWrapper {
+  display: inline-block;
+  width: 750px;
+
+  /* width: 50%;
+  margin: 0 auto; */
+  /* position:absolute; */
+  /* align-content: center; */
+  /* left: 50%; */
+  /* position: absolute; */
+  /* right: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.productSection h4 {
+  /* position: absolute; */
+  display: block;
+  width: 130px;
+  padding-top: 0;
+  margin-top: 0;
+  /* top: 885px; */
+  /* left: 80px; */
+  /* float: right; */
+  font-family: 'Merriweather';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  z-index: 99999999;
+  float: right;
+  margin-right: 70px;
+  /* background-color: rgba(255, 255, 0, 0.377); */
+  /* float:right; */
+  /* margin-left: 250px; */
+  color: #004e97;
+
+  /* margin-left: 170px; */
+}
+.productSection h4:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #d91023;
+}
+
+.productWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  list-style: none;
+
+  overflow: auto;
+  /* position: absolute; */
+  margin: 0px auto;
+
+  /* left: 50%; */
+  max-width: 660px;
+  height: 365px;
+
+  /* text-align: center; */
+}
+
+@media only screen and (max-width: 688px) {
+  .productSection {
+    height: 1051px;
+    /* width: 1440px; */
+    /* left: 0px;
+    top: 2901px; */
+    /* border-radius: 0px; */
+
+    /* transform: translatex(55%); */
+    /* width: 677px; */
+    /* height:100px; */
+    padding-top: 150px;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* position:absolute */
+  }
+
+  .productSection .timeline img {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    left: 34px;
+    /* top: 3171px; */
+    margin-bottom: 0px;
+    /* position: relative; */
+    /* width: 120px; */
+  }
+
+  .productSection h1 {
+    position: absolute;
+    width: 216px;
+    height: 30px;
+    left: 36px;
+    /* top: 3227px; */
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #282828;
+    padding-top: 56px;
+  }
+
+  .productSection p {
+    position: relative;
+    width: 354px;
+    height: 100px;
+    margin: 0px;
+    left: 50px;
+    top: 95px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    color: #282828;
+  }
+
+  .productSection p.description {
+    width: 100%;
+    padding-right: 20%;
+  }
+
+  .featuredWrapper {
+    padding-top: 25px;
+  }
+
+  .productSection h3 {
+    position: absolute;
+    width: 183px;
+    height: 25px;
+    left: 36px;
+    /* top: 3409px; */
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #282828;
+    margin-top: 100px;
+  }
+}

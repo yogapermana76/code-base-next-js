@@ -1,7 +1,5 @@
 import React from 'react';
 import Layout from '@/components/layout';
-import Footer from '@/components/footer';
-import Wonderful from '@/components/Pages/Home/CleanHomepage';
 import AboutTwo from '@/components/about-two';
 import ClientCarousel from '@/components/client-carousel';
 import RecentProject from '@/components/recent-project';
@@ -16,11 +14,19 @@ import ServiceTwo from '@/components/service-two';
 import HeaderOne from '@/components/header-one';
 import SliderOne from '@/components/slider-one';
 
+import Header from '@/components/Header/Header';
+import Product from '@/components/Sections/Product/Product';
+import Footer from '@/components/Footer/index';
+import Wonderful from '@/components/Pages/Home/CleanHomepage';
+
+
 const Home = () => {
   return (
     <Layout PageTitle="Home Page">
-      <HeaderOne />
+      {/* <HeaderOne /> */}
+      <Header />
       <SliderOne />
+      <Product />
       <Wonderful />
       <AboutTwo />
       <ServiceTwo />
