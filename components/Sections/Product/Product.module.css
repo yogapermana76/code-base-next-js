@@ -15,8 +15,12 @@
   justify-content: center;
   /* position:absolute */
 }
-
-.productSection .timeline img {
+.productSection .halfcircle {
+  position: absolute;
+  left: 0;
+  margin-top: -220px;
+}
+.productSection .timeline {
   margin-bottom: 16px;
   /* position: relative; */
   /* width: 120px; */
@@ -58,11 +62,11 @@
   margin: 0 auto;
 
   /* height: 66px; */
-  color: #4F4F4F;
+  color: #4f4f4f;
 
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 22px;
   /* or 137% */

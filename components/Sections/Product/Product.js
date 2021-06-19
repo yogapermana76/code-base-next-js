@@ -50,7 +50,7 @@ const CardProduct = () => {
 
   return (
     <section className={classes.productSection}>
-      <i className={classes.timeline}>
+      <i className={classes.halfcircle}>
         <img src={halfCircleLogo} alt="halfcircle-logo" />
       </i>
       <i className={classes.timeline}>
