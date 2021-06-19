@@ -26,6 +26,11 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Head>
         <title>{PageTitle} - Printify - Printing company NextJS Template</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <div id="wrapper">{children}</div>
 

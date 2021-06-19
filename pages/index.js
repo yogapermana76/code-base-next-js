@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@/components/layout';
-import Footer from '@/components/footer';
+// import Footer from '@/components/footer';
 import AboutTwo from '@/components/about-two';
 import ClientCarousel from '@/components/client-carousel';
 import RecentProject from '@/components/recent-project';
@@ -16,6 +16,8 @@ import HeaderOne from '@/components/header-one';
 import SliderOne from '@/components/slider-one';
 
 import Header from '../components/Header/Header';
+import Product from '../components/Sections/Product/Product';
+import Footer from '../components/Footer/index';
 
 const Home = () => {
   return (
@@ -23,6 +25,7 @@ const Home = () => {
       {/* <HeaderOne /> */}
       <Header />
       {/* <SliderOne /> */}
+      <Product />
       <AboutTwo />
       <ServiceTwo />
       <TestimonialsOne />

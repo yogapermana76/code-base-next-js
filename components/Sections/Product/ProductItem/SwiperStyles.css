@@ -1,0 +1,71 @@
+.swiperWrapper .swiper-container {
+  width: 750px;
+  height: 550px;
+}
+
+.swiperWrapper .swiper-wrapper {
+  width: 625px;
+  margin: 0 auto;
+  /* height: 600px; */
+  /* margin-left: 2%; */
+  /* text-align: center; */
+}
+
+.swiperWrapper .swiper-slide {
+  padding-left: 10px;
+  /* padding-top: 10px; */
+  width: 210px;
+  /* height: 100%; */
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -11px;
+  text-align: left;
+  width: 100%;
+  margin-left: 73px;
+  margin-bottom: -21px;
+}
+
+/* .element.style {
+  width: 210px;
+
+} */
+
+.swiperWrapper .swiper-button-next,
+.swiperWrapper .swiper-button-prev {
+  width: 36px;
+  height: 36px;
+}
+
+.swiperWrapper .swiper-button-next {
+  background-image: url('../assets/img/next-btn.svg') !important;
+}
+
+.swiperWrapper .swiper-button-prev {
+  background-image: url('../assets/img/prev-btn.svg') !important;
+}
+
+.swiperWrapper .swiper-button-next:after,
+.swiperWrapper .swiper-container-rtl .swiperWrapper .swiper-button-prev:after {
+  content: none;
+}
+
+.swiperWrapper .swiper-button-prev:after,
+.swiperWrapper .swiper-container-rtl .swiperWrapper .swiper-button-next:after {
+  content: 'none';
+}
+
+.swiperWrapper .swiper-pagination-bullet-active {
+  background: #0a5379;
+  width: 24px;
+  border-radius: 10px;
+}
+
+.swiperWrapper
+  .swiper-container-multirow-column
+  > .swiperWrapper
+  .swiper-wrapper {
+  flex-direction: row;
+}
